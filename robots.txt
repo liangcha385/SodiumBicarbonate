@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://vuepress-theme-hope-docs-demo.netlify.app/SodiumBicarbonate/sitemap.xml
+Sitemap: https://liangcha385.github.io/SodiumBicarbonate/SodiumBicarbonate/sitemap.xml
