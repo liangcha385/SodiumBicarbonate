@@ -4,7 +4,7 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  hostname: "https://liangcha385.github.io/SodiumBicarbonate/",
 
   author: {
     name: "liangcha385",
@@ -24,7 +24,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "使用 CC BY-NC 4.0 协议, 版权所有 © 2025 liangcha385",
+  footer: "使用 CC BY-NC 4.0 协议",
   displayFooter: true,
 
   // 加密配置
@@ -133,21 +133,6 @@ export default hopeTheme({
     icon: {
       prefix: "fa6-solid:",
     },
-
-    notice: [
-      {
-        path: "/",
-        title: "公告",
-        content: "文档目前处于建设阶段，随时会进行大改，请见谅",
-        actions: [
-          {
-            text: "文档仓库",
-            link: "https://github.com/liangcha385/SodiumBicarbonate",
-            type: "primary",
-          },,
-        ],
-      }
-    ],
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
