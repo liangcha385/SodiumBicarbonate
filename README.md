@@ -14,10 +14,14 @@
 ## 🔨 提交贡献
 
 1. 登录你的 Github 账号
-2. 点击 Fork 按钮随后为你的**账号**创建文档分支
+2. 点击 `Fork` 按钮随后为你的**账号**创建文档分支
 
 > 出于需要我们可能随时会在你的分支仓库中提交更改，所以我们不建议你将分支仓库放在某个团队中
 > 我们也不建议你更改分支仓库名称，防止误操作
+
+3. 打开控制台，使用命令 `git clone --single-branch --depth 1 -b main https://github.com/<github_name>/SodiumBicarbonate.git` 将自己仓库中的分支仓库克隆到自己本地
+4. 完成更改后，打开控制台使用命令 `pnpm run docs:clean-dev`，随后在浏览器中打开 `http://localhost:8080/SodiumBicarbonate/` 查看更改
+5. 确认无误后提交更改，随后前往主仓库点击 `Pull requests -> New pull request` 发起 PR，等待检查后合并
 
 ## 📜 致谢名单
 
